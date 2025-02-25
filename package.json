@@ -1,0 +1,23 @@
+{
+  "name": "neocatecumenal",
+  "version": "1.0.1",
+  "description": "Libs compartilhadas entre app do CNC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardocintra/neocatecumenal.git"
+  },
+  "keywords": [
+    "neocatecumenal"
+  ],
+  "author": "Leonardo Nascimento Cintra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardocintra/neocatecumenal/issues"
+  },
+  "homepage": "https://github.com/leonardocintra/neocatecumenal#readme"
+}
