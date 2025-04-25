@@ -1,6 +1,6 @@
 {
   "name": "neocatecumenal",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Libs compartilhadas entre app do CNC",
   "main": "index.js",
   "scripts": {
