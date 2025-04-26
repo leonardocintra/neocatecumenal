@@ -3,6 +3,6 @@
  * Ex: Leigo, Levantado, Seminarista, Religioso(a), Diacono, Presbitero, Bispo, Papa
  */
 export default interface SituacaoReligiosa {
-    id: string;
+    id: number;
     descricao: string;
 }

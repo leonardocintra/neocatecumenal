@@ -1,4 +1,4 @@
 export default interface Escolaridade {
-    id: string;
+    id: number;
     descricao: string;
 }

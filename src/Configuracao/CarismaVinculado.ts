@@ -3,6 +3,6 @@
  * Ex: Responsavel, Co-Responsavel, Salmista, Catequista, Leitores, Ostiario, Mestre, Padeiro, etc
  */
 export default interface CarismaVinculado {
-  id: string;
+  id: number;
   descricao: string;
 }

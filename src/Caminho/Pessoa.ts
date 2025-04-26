@@ -20,5 +20,5 @@ export default interface Pessoa {
   enderecos?: Endereco[];
   conjugue?: PessoaConjugue;
   situacaoReligiosa: SituacaoReligiosa;
-  carismas?: CarismaVinculado;
+  carismas?: CarismaVinculado[];
 }
