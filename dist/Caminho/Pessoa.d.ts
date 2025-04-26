@@ -5,7 +5,7 @@ import PessoaConjugue from "./PessoaConjugue";
 import SituacaoReligiosa from "../Configuracao/SituacaoReligiosa";
 import CarismaVinculado from "../Configuracao/CarismaVinculado";
 export default interface Pessoa {
-    id: string;
+    id: number;
     nome: string;
     conhecidoPor?: string;
     cpf: string;
