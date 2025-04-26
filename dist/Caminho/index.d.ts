@@ -1,9 +1,7 @@
 import Cidade from "./Cidade";
 import Endereco from "./Endereco";
-import Escolaridade from "./Escolaridade";
 import Estado from "./Estado";
-import EstadoCivil from "./EstadoCivil";
 import Pais from "./Pais";
 import Pessoa from "./Pessoa";
 import PessoaConjugue from "./PessoaConjugue";
-export { Cidade, Endereco, Escolaridade, Estado, EstadoCivil, Pais, Pessoa, PessoaConjugue, };
+export { Cidade, Endereco, Estado, Pais, Pessoa, PessoaConjugue, };

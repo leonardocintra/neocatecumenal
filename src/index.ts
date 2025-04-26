@@ -1,1 +1,2 @@
-export * from "./caminho";
+export * from "./Caminho";
+export * from "./Configuracao";
