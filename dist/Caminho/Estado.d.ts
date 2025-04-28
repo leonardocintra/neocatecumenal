@@ -1,6 +1,6 @@
 import Pais from "./Pais";
 export default interface Estado {
-    id: string;
+    id: number;
     nome: string;
     sigla: string;
     pais: Pais;

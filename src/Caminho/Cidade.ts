@@ -1,7 +1,7 @@
 import Estado from "./Estado";
 
 export default interface Cidade {
-  id: string;
+  id: number;
   nome: string;
   estado: Estado;
 }

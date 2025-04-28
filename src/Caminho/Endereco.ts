@@ -1,11 +1,12 @@
 import Cidade from "./Cidade";
 
 export default interface Endereco {
-  id: string;
+  id: number;
   cep: string;
   logradouro: string;
   numero: string;
   complemento: string;
   bairro: string;
   cidade: Cidade;
+  observacao: string;
 }
