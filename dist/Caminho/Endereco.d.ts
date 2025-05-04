@@ -4,7 +4,7 @@ export default interface Endereco {
     cep: string;
     logradouro: string;
     numero: string;
-    complemento: string;
+    complemento?: string;
     bairro: string;
     cidade: Cidade;
     observacao: string;
