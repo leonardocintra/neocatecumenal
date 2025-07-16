@@ -1,3 +1,5 @@
+import CarismaPrimitivo from "./CarismaPrimitivo";
+import CarismaServico from "./CarismaServico";
 import CarismaVinculado from "./CarismaVinculado";
 import Escolaridade from "./Escolaridade";
 import EstadoCivil from "./EstadoCivil";
@@ -10,4 +12,6 @@ export {
   SituacaoReligiosa,
   CarismaVinculado,
   TipoDiocese,
+  CarismaServico,
+  CarismaPrimitivo,
 };
