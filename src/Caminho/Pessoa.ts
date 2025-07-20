@@ -3,7 +3,11 @@ import Escolaridade from "../Configuracao/Escolaridade";
 import EstadoCivil from "../Configuracao/EstadoCivil";
 import PessoaConjugue from "./PessoaConjugue";
 import SituacaoReligiosa from "../Configuracao/SituacaoReligiosa";
-import CarismaVinculado from "../Configuracao/CarismaVinculado";
+import {
+  CarismaPrimitivo,
+  CarismaServico,
+  CarismaVinculado,
+} from "../Configuracao";
 
 export default interface Pessoa {
   id: number;
@@ -20,5 +24,9 @@ export default interface Pessoa {
   enderecos?: Endereco[];
   conjugue?: PessoaConjugue;
   situacaoReligiosa: SituacaoReligiosa;
-  carismas?: CarismaVinculado[];
+  carismas?: {
+    primitivos?: CarismaPrimitivo[];
+    servicos?: CarismaServico[];
+    vinculados?: CarismaVinculado[];
+  };
 }
