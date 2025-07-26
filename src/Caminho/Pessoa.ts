@@ -20,7 +20,7 @@ export default interface Pessoa {
   foto?: string;
   ativo: boolean;
   estadoCivil: EstadoCivil;
-  escolaridade: Escolaridade;
+  escolaridade?: Escolaridade;
   enderecos?: Endereco[];
   conjugue?: PessoaConjugue;
   situacaoReligiosa: SituacaoReligiosa;
