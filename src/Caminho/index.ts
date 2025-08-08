@@ -6,6 +6,8 @@ import Pais from "./Pais";
 import Paroquia from "./Paroquia";
 import Pessoa from "./Pessoa";
 import PessoaConjugue from "./PessoaConjugue";
+import MacroRegiao from "./MacroRegiao";
+import Setor from "./Setor";
 
 export {
   Cidade,
@@ -16,4 +18,6 @@ export {
   Pessoa,
   PessoaConjugue,
   Paroquia,
+  MacroRegiao,
+  Setor,
 };

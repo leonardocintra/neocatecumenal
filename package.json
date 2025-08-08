@@ -1,6 +1,6 @@
 {
   "name": "neocatecumenal",
-  "version": "2.1.12",
+  "version": "2.1.13",
   "description": "Libs compartilhadas entre app do CNC",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/leonardocintra/neocatecumenal#readme",
   "devDependencies": {
-    "typescript": "^5.8.2"
+    "typescript": "^5.9.2"
   }
 }
