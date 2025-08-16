@@ -1,5 +1,5 @@
 import Pessoa from "./Pessoa";
-export default interface EstadoCivil {
+export default interface PessoaConjugue {
     id: number;
     marido: Pessoa;
     esposa: Pessoa;
