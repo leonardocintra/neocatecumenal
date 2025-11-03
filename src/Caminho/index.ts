@@ -8,6 +8,7 @@ import Pessoa from "./Pessoa";
 import PessoaConjugue from "./PessoaConjugue";
 import MacroRegiao from "./MacroRegiao";
 import Setor from "./Setor";
+import Regiao from "./Regiao";
 
 export {
   Cidade,
@@ -20,4 +21,5 @@ export {
   Paroquia,
   MacroRegiao,
   Setor,
+  Regiao,
 };

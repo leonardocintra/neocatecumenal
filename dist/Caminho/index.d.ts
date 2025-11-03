@@ -8,4 +8,5 @@ import Pessoa from "./Pessoa";
 import PessoaConjugue from "./PessoaConjugue";
 import MacroRegiao from "./MacroRegiao";
 import Setor from "./Setor";
-export { Cidade, Diocese, Endereco, Estado, Pais, Pessoa, PessoaConjugue, Paroquia, MacroRegiao, Setor, };
+import Regiao from "./Regiao";
+export { Cidade, Diocese, Endereco, Estado, Pais, Pessoa, PessoaConjugue, Paroquia, MacroRegiao, Setor, Regiao, };
