@@ -16,3 +16,4 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./Caminho"), exports);
 __exportStar(require("./Configuracao"), exports);
+__exportStar(require("./Commons/Enums"), exports);
