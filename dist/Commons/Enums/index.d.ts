@@ -1,3 +1,4 @@
 import { EscolaridadeEnum } from "./EscolaridadeEnum";
 import { EstadoCivilEnum } from "./EstadoCivilEnum";
-export { EstadoCivilEnum, EscolaridadeEnum };
+import { EtapaEnum } from "./EtapaEnum";
+export { EstadoCivilEnum, EscolaridadeEnum, EtapaEnum };

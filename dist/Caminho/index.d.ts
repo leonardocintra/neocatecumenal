@@ -9,4 +9,5 @@ import PessoaConjugue from "./PessoaConjugue";
 import MacroRegiao from "./MacroRegiao";
 import Setor from "./Setor";
 import Regiao from "./Regiao";
-export { Cidade, Diocese, Endereco, Estado, Pais, Pessoa, PessoaConjugue, Paroquia, MacroRegiao, Setor, Regiao, };
+import Comunidade from "./Comunidade";
+export { Cidade, Diocese, Endereco, Estado, Pais, Pessoa, PessoaConjugue, Paroquia, MacroRegiao, Setor, Regiao, Comunidade, };

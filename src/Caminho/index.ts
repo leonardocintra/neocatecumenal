@@ -9,6 +9,7 @@ import PessoaConjugue from "./PessoaConjugue";
 import MacroRegiao from "./MacroRegiao";
 import Setor from "./Setor";
 import Regiao from "./Regiao";
+import Comunidade from "./Comunidade";
 
 export {
   Cidade,
@@ -22,4 +23,5 @@ export {
   MacroRegiao,
   Setor,
   Regiao,
+  Comunidade,
 };
