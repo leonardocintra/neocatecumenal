@@ -10,6 +10,7 @@ import MacroRegiao from "./MacroRegiao";
 import Setor from "./Setor";
 import Regiao from "./Regiao";
 import Comunidade from "./Comunidade";
+import Equipe from "./Equipe";
 
 export {
   Cidade,
@@ -24,4 +25,5 @@ export {
   Setor,
   Regiao,
   Comunidade,
+  Equipe,
 };
