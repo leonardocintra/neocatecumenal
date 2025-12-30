@@ -11,8 +11,11 @@ import Setor from "./Setor";
 import Regiao from "./Regiao";
 import Comunidade from "./Comunidade";
 import Equipe from "./Equipe";
+import Catequista from "./Catequista";
+import ComunidadeEtapa from "./ComunidadeEtapa";
 
 export {
+  Catequista,
   Cidade,
   Diocese,
   Endereco,
@@ -25,5 +28,6 @@ export {
   Setor,
   Regiao,
   Comunidade,
+  ComunidadeEtapa,
   Equipe,
 };
