@@ -1,3 +1,4 @@
+import Comunidade from "./Comunidade";
 import Diocese from "./Diocese";
 import Endereco from "./Endereco";
 import Setor from "./Setor";
@@ -7,5 +8,6 @@ export default interface Paroquia {
     diocese: Diocese;
     endereco: Endereco;
     setor: Setor;
+    comunidades?: Comunidade[];
     observacao?: string;
 }

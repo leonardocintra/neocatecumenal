@@ -6,6 +6,6 @@ export default interface Comunidade {
     numeroDaComunidade: number;
     quantidadeMembros: number;
     paroquia: Paroquia;
-    comunidadeEtapas?: ComunidadeEtapa[];
+    comunidadeEtapas: ComunidadeEtapa[];
     observacao?: string;
 }
