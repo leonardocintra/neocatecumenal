@@ -11,6 +11,6 @@ import Setor from "./Setor";
 import Regiao from "./Regiao";
 import Comunidade from "./Comunidade";
 import Equipe from "./Equipe";
-import Catequista from "./Catequista";
+import CarismaEquipe from "./CarismaEquipe";
 import ComunidadeEtapa from "./ComunidadeEtapa";
-export { Catequista, Cidade, Diocese, Endereco, Estado, Pais, Pessoa, PessoaConjugue, Paroquia, MacroRegiao, Setor, Regiao, Comunidade, ComunidadeEtapa, Equipe, };
+export { CarismaEquipe, Cidade, Diocese, Endereco, Estado, Pais, Pessoa, PessoaConjugue, Paroquia, MacroRegiao, Setor, Regiao, Comunidade, ComunidadeEtapa, Equipe, };
