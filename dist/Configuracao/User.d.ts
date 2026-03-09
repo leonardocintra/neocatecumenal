@@ -6,4 +6,5 @@ export default interface User {
     pessoaId?: number;
     verifiedWhatsapp: boolean;
     active: boolean;
+    createdAt: Date;
 }
