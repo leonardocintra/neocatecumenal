@@ -1,8 +1,10 @@
 # Libs Neocatecumenal
 
+Interfaces compartilhadas nas apliações frontend e backend do caminho neocatecumenal
+
 ## Como usar
 ```
-$ npm i
+$ npm install neocatecumenal
 $ npm run build
 $ npm publish
 ```
@@ -11,5 +13,5 @@ $ npm publish
 ## NPM
 https://www.npmjs.com/package/neocatecumenal
 
-## Meta
+## Author
 Leonardo Nascimento Cintra - leonardo.ncintra@outlook.com

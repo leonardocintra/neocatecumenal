@@ -1,10 +1,10 @@
-import { EtapaEnum } from "../Commons/Enums";
 import Equipe from "./Equipe";
+import Etapa from "./Etapa";
 
 export default interface ComunidadeEtapa {
   id: number;
   comunidadeId: number;
-  etapa: EtapaEnum;
+  etapa: Etapa;
   equipe?: Equipe;
   dataInicio?: Date;
   dataFim?: Date;

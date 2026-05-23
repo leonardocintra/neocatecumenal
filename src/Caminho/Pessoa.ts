@@ -2,7 +2,7 @@ import Endereco from "./Endereco";
 import PessoaConjugue from "./PessoaConjugue";
 import SituacaoReligiosa from "../Configuracao/SituacaoReligiosa";
 import { Carisma } from "../Configuracao";
-import ComunidadePessoa from "./ComunidadePessoa";
+import Comunidade from "./Comunidade";
 
 export default interface Pessoa {
   id: number;
@@ -21,5 +21,5 @@ export default interface Pessoa {
   conjugue?: PessoaConjugue;
   situacaoReligiosa: SituacaoReligiosa;
   carismas?: Carisma[];
-  comunidade?: ComunidadePessoa;
+  comunidade?: Comunidade;
 }

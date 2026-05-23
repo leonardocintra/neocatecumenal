@@ -13,6 +13,7 @@ import Comunidade from "./Comunidade";
 import Equipe from "./Equipe";
 import CarismaEquipe from "./CarismaEquipe";
 import ComunidadeEtapa from "./ComunidadeEtapa";
+import Etapa from "./Etapa";
 
 export {
   CarismaEquipe,
@@ -30,4 +31,5 @@ export {
   Comunidade,
   ComunidadeEtapa,
   Equipe,
+  Etapa,
 };

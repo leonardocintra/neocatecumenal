@@ -5,4 +5,5 @@
 export default interface SituacaoReligiosa {
   id: number;
   descricao: string;
+  sexoUnico?: string;
 }

@@ -1,5 +1,5 @@
-import { EtapaEnum } from "../Commons/Enums";
 import ComunidadeEtapa from "./ComunidadeEtapa";
+import Etapa from "./Etapa";
 import Paroquia from "./Paroquia";
 
 export default interface Comunidade {
@@ -7,7 +7,7 @@ export default interface Comunidade {
   numeroDaComunidade: number;
   quantidadeMembros: number;
   paroquia: Paroquia;
-  etapaAtual: EtapaEnum;
+  etapaAtual: Etapa;
   comunidadeEtapas: ComunidadeEtapa[];
   observacao?: string;
 }
